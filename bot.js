@@ -11,7 +11,7 @@ client.on('ready', function () {
 })
 
 client.on('guildMemberAdd', member =>{
-    member.guild.channels.get('620306725882560542').send(' **Hello** ' + member.user + ', **Welcome to Kingdom** , **We are now** ' + member.guild.memberCount + ' **Members** ! :heart:');
+    member.guild.channels.get('641189524017512449').send(' **Hello** ' + member.user + ', **Welcome to Kingdom** , **We are now** ' + member.guild.memberCount + ' **Members** ! :heart:');
     console.log('+1');
 });
 
